@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+    input[type="checkbox"]{
+            display: none;
+        }
+        label span{
+            position: relative;
+            display: inline-block;
+            background-color: rgb(18, 2, 236);
+            padding: 30px;
+            color:black;
+            font-size:20px;
+            border-radius: 20px;
+            cursor: pointer;
+            overflow: hidden;
+            transition: 0.5s;
+            user-select: none;
+        }
+        
+        label span::before{
+            content: '';
+            position: absolute;
+            top:0;
+            left:0;
+            width: 100%;
+            height:50%;
+            background:rgba(18, 2, 236,0);
+        }
+
+        input[type="checkbox"]:checked ~ span{
+            background-color: #fff;
+        }
+    </style>
+
+    <label>
+        <input type="checkbox" name="" id="">
+        <span>Sunday</span>
+    </label>
+    <label>
+        <input type="checkbox" name="" id="">
+        <span>Monday</span>
+    </label>
+    <label>
+        <input type="checkbox" name="" id="">
+        <span>Tuesday</span>
+    </label>
+    <label>
+        <input type="checkbox" name="" id="">
+        <span>wedday</span>
+    </label>
+    <label>
+        <input type="checkbox" name="" id="">
+        <span>thursday</span>
+    </label>
+    <label>
+        <input type="checkbox" name="" id="">
+        <span>friday</span>
+    </label>
+    <label>
+        <input type="checkbox" name="" id="">
+        <span>saturday</span>
+    </label>
+</body>
+
+</html>

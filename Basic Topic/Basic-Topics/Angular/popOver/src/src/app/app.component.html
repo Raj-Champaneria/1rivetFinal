@@ -1,0 +1,182 @@
+<div class="d-flex">
+  <button type="button" class="btn btn-outline-secondary btn-seat" placement="auto" [ngbPopover]="reservedPopContent">
+    <img src="assets/images/red chair.png" alt="chair-icon">
+  </button>
+  <button type="button" class="btn btn-outline-secondary btn-seat" placement="auto" [ngbPopover]="bookedPopContent">
+    <img src="assets/images/Booked-chair.png" alt="chair-icon">
+  </button>
+  <button type="button" class="btn btn-outline-secondary btn-seat" placement="auto"
+    [ngbPopover]="availableSeatPopContent">
+    <img src="assets/images/available-seat.png" alt="chair-icon">
+  </button>
+</div>
+
+<!-- start : Popover message for reserved-seat -->
+<ng-template #reservedPopContent>
+  <ul class="px-4 py-3">
+    <li>
+      <div class="row">
+        <h6 class="user-details col-3">Name</h6>
+        <span class="col-1">:</span>
+        <h6 class="user-details col-6">{{name}}</h6>
+        <div class="reserved-seat text-center col-2 d-flex align-items-center justify-content-center">
+          <span class="user-seat-reserved">Reserved</span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="row py-1">
+        <h6 class="user-details col-3">Project</h6>
+        <span class="col-1">:</span>
+        <h6 class="user-details col-8">{{project}}</h6>
+      </div>
+    </li>
+    <li>
+      <div class="row">
+        <h6 class="user-details col-3">Designation</h6>
+        <span class="col-1">:</span>
+        <h6 class="user-details col-8">{{designation}}</h6>
+      </div>
+    </li>
+    <li>
+      <div class="row py-1">
+        <h6 class="user-details col-3">Duration</h6>
+        <span class="col-1">:</span>
+        <h6 class="user-details col-8">{{duration}}</h6>
+      </div>
+    </li>
+    <li>
+      <div class="row">
+        <h6 class="user-details col-3">Email</h6>
+        <span class="col-1">:</span>
+        <h6 class="user-details user-email col-8">{{email}} </h6>
+      </div>
+    </li>
+  </ul>
+</ng-template>
+<!-- end : Popover message for reserved-seat -->
+
+<!-- start : Popover message for booked-seat -->
+<ng-template #bookedPopContent>
+  <ul class="book-seat-details px-4 py-3">
+    <li>
+      <div class="row">
+        <h6 class="user-details col-3">Name</h6>
+        <span class="col-1">:</span>
+        <h6 class="user-details col-8">{{name}}</h6>
+      </div>
+    </li>
+    <li>
+      <div class="row py-1">
+        <h6 class="user-details col-3">Project</h6>
+        <span class="col-1">:</span>
+        <h6 class="user-details col-8">{{project}}</h6>
+      </div>
+    </li>
+    <li>
+      <div class="row">
+        <h6 class="user-details col-3">Designation</h6>
+        <span class="col-1">:</span>
+        <h6 class="user-details col-8">{{designation}}</h6>
+      </div>
+    </li>
+    <li>
+      <div class="row py-1">
+        <h6 class="user-details col-3">Duration</h6>
+        <span class="col-1">:</span>
+        <h6 class="user-details col-8">{{duration}}</h6>
+      </div>
+    </li>
+    <li>
+      <div class="row">
+        <h6 class="user-details col-3">Email</h6>
+        <span class="col-1">:</span>
+        <h6 class="user-details user-email col-8">{{email}}</h6>
+      </div>
+    </li>
+  </ul>
+
+  <ul class="px-4 pt-4 pb-3">
+    <li>
+      <div class="row">
+        <h6 class="user-details col-3">Assigned to</h6>
+        <span class="col-1">:</span>
+        <h6 class="user-details col-6">{{name}}</h6>
+        <div class="booked-seat text-center col-2 d-flex align-items-center justify-content-center">
+          <span class="user-seat-booked">Booked</span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="row py-1">
+        <h6 class="user-details col-3">Project</h6><span class="col-1">:</span>
+        <h6 class="user-details col-8">{{project}}</h6>
+      </div>
+    </li>
+    <li>
+      <div class="row">
+        <h6 class="user-details col-3">Designation</h6><span class="col-1">:</span>
+        <h6 class="user-details col-8">{{designation}}</h6>
+      </div>
+    </li>
+    <li>
+      <div class="row py-1">
+        <h6 class="user-details col-3">Duration</h6><span class="col-1">:</span>
+        <h6 class="user-details col-8">{{duration}}</h6>
+      </div>
+    </li>
+    <li>
+      <div class="row">
+        <h6 class="user-details col-3">Email</h6><span class="col-1">:</span>
+        <h6 class="user-details user-email col-8">{{email}}</h6>
+      </div>
+    </li>
+  </ul>
+</ng-template>
+<!-- end : Popover message for booked-seat -->
+
+
+<!-- start : Popover message for available-seat -->
+<ng-template #availableSeatPopContent>
+  <ul class="px-4 py-3">
+    <li>
+      <div class="row">
+        <h6 class="user-details col-3">Name</h6><span class="col-1">:</span>
+        <h6 class="user-details col-6">{{name}}</h6>
+        <div class="available-seat text-center col-2 d-flex align-items-center justify-content-center">
+          <span class="user-seat-available">Available</span>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div class="row py-1">
+        <h6 class="user-details col-3">Project</h6><span class="col-1">:</span>
+        <h6 class="user-details col-8">{{project}}</h6>
+      </div>
+    </li>
+    <li>
+      <div class="row">
+        <h6 class="user-details col-3">Designation</h6><span class="col-1">:</span>
+        <h6 class="user-details col-8">{{designation}}</h6>
+      </div>
+    </li>
+    <li>
+      <div class="row py-1">
+        <h6 class="user-details col-3">Duration</h6><span class="col-1">:</span>
+        <h6 class="user-details col-8">{{duration}}</h6>
+      </div>
+    </li>
+    <li>
+      <div class="row">
+        <h6 class="user-details col-3">Email</h6><span class="col-1">:</span>
+        <h6 class="user-details user-email col-8">{{email}}</h6>
+      </div>
+    </li>
+  </ul>
+  <div class="w-100 d-flex flex-column justify-content-center align-items-center px-5">
+    <p class="select-available-seat text-center mt-4">You have selected available seat. Pls proceed with clicking on
+      Request.</p>
+    <button type="button" class="btn btn-primary mx-5 mb-3 w-100">REQUEST</button>
+  </div>
+</ng-template>
+<!-- end : Popover message for available-seat -->

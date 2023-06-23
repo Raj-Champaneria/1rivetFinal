@@ -1,0 +1,64 @@
+/* You can add global styles to this file, and also import other style files */
+// Functions first
+@import "../node_modules/bootstrap/scss/functions";
+
+// Variable overrides second
+$enable-shadows: true;
+// $prefix: null;
+$popover-border-color: 0;
+$popover-max-width: null;
+$popover-body-padding-y: 0;
+$popover-body-padding-x: 0;
+
+.popover {
+  width: 540px;
+}
+
+// Required Bootstrap imports
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// Optional components
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/button-group";
+
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/utilities/api";
+@import "../node_modules/bootstrap/scss/popover";
+
+.bs-popover-bottom > .popover-arrow::before {
+  border-width: 0;
+}
+
+.bs-popover-end > .popover-arrow::before {
+  border-width: 0;
+}
+
+.bs-popover-start > .popover-arrow::before {
+  border-width: 0;
+}
+
+.bs-popover-top > .popover-arrow::before {
+  border-width: 0;
+}
+
+.popover {
+  &.bs-popover-bottom {
+    margin-top: -15px !important;
+  }
+  &.bs-popover-start {
+    margin-right: -15px !important;
+  }
+  &.bs-popover-top {
+    margin-bottom: -10px !important;
+  }
+  &.bs-popover-end {
+    margin-left: -15px !important;
+  }
+}

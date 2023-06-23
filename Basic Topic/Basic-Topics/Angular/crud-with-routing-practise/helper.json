@@ -1,0 +1,111 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "helper": [
+    {
+      "name": "ss",
+      "age": "23",
+      "experience": "2",
+      "availiblity": "1",
+      "email": "dd",
+      "password": "dd",
+      "confirmpassword": "ss",
+      "acceptform": true,
+      "license": [
+        "LMV"
+      ],
+      "id": 10
+    },
+    {
+      "name": "Raj",
+      "age": "23222",
+      "experience": "3",
+      "availiblity": "1",
+      "email": "d",
+      "password": "d",
+      "confirmpassword": "d",
+      "acceptform": true,
+      "license": [
+        "MCWG",
+        "SUV"
+      ],
+      "id": 11
+    },
+    {
+      "name": "nn",
+      "age": "nn",
+      "experience": "2",
+      "availiblity": "1",
+      "email": "aa",
+      "password": "aa",
+      "confirmpassword": "aa",
+      "acceptform": true,
+      "license": [
+        "LMV",
+        "HLV"
+      ],
+      "id": 12
+    },
+    {
+      "name": "nn",
+      "age": "nn",
+      "experience": "3",
+      "availiblity": "1",
+      "email": "aa",
+      "password": "aa",
+      "confirmpassword": "aa",
+      "acceptform": true,
+      "license": [
+        "MCWG",
+        "SUV"
+      ],
+      "id": 14
+    },
+    {
+      "name": "Nupur",
+      "age": "22",
+      "experience": "2",
+      "availiblity": "1",
+      "email": "NupurPandya@gmail.com",
+      "password": "Nupur",
+      "confirmpassword": "Nupur",
+      "acceptform": true,
+      "license": [
+        "HLV",
+        "SUV",
+        "MCWG",
+        "LMV"
+      ],
+      "id": 15
+    },
+    {
+      "name": "KarAN",
+      "age": "33",
+      "experience": "2",
+      "availiblity": "0",
+      "email": "KKK",
+      "password": "FFGHD",
+      "confirmpassword": "GDFHG",
+      "acceptform": true,
+      "license": [
+        "MCWG"
+      ],
+      "id": 17
+    }
+  ]
+}

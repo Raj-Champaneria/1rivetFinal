@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "form": [
+    {
+      "fname": "Ashish",
+      "description": "Mongo DB",
+      "status": "Success",
+      "rate": "250050",
+      "balance": "2255000",
+      "deposit": "20215",
+      "id": 19
+    },
+    {
+      "fname": "Raj",
+      "description": "champaneria",
+      "status": "Open",
+      "rate": "123344",
+      "balance": "14444",
+      "deposit": "44444",
+      "id": 20
+    },
+    {
+      "fname": "JOHN",
+      "description": "doe",
+      "status": "Success",
+      "rate": "4365873",
+      "balance": "6578678",
+      "deposit": "45756",
+      "id": 21
+    },
+    {
+      "fname": "JOHN",
+      "description": "doe",
+      "status": "Open",
+      "rate": "4365873",
+      "balance": "6578678",
+      "deposit": "45756",
+      "id": 22
+    }
+  ]
+}

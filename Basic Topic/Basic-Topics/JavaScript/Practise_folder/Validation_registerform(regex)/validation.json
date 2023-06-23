@@ -1,0 +1,613 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "validation": [
+    {
+      "fname": "Ashish",
+      "lname": "Patil",
+      "email": "Ashish@1rivet.com",
+      "contact": "9879886687",
+      "salary": "5100",
+      "id": 1
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Nupur",
+      "lname": "pNDYA",
+      "email": "Nupur@1rivet.com",
+      "contact": "9818999989",
+      "salary": "51000",
+      "id": 2
+    },
+    {
+      "fname": "Raj",
+      "lname": "champa",
+      "email": "raj@1rivet.com",
+      "contact": "9828559699",
+      "salary": "25252",
+      "id": 3
+    },
+    {
+      "fname": "maahi",
+      "lname": "Patel",
+      "email": "mahi@1rivet.com",
+      "contact": "9898952525",
+      "salary": "21000",
+      "id": 4
+    },
+    {
+      "fname": "dfsd",
+      "lname": "dsgfds",
+      "email": "dsgfds@1rivet.com",
+      "contact": "9825569665",
+      "salary": "12345",
+      "id": 5
+    },
+    {
+      "fname": "sfdsgf",
+      "lname": "dfsgds",
+      "email": "Rajchamapaneria5@1rivet.com",
+      "contact": "9825148585",
+      "salary": "12345",
+      "id": 6
+    },
+    {
+      "fname": "sfdsgf",
+      "lname": "dfsgds",
+      "email": "Rajchsssamapaneria5@1rivet.com",
+      "contact": "9825148585",
+      "salary": "12345",
+      "id": 7
+    },
+    {
+      "fname": "dsd",
+      "lname": "dfsd",
+      "email": "Rajchamapaneria5@1rivet.com",
+      "contact": "9825148585",
+      "salary": "5100",
+      "id": 8
+    },
+    {
+      "fname": "sf",
+      "lname": "sfd",
+      "email": "Rajchamapaneria5@1rivet.com",
+      "contact": "9825148585",
+      "salary": "22222",
+      "id": 9
+    },
+    {
+      "fname": "Preet",
+      "lname": "Patel",
+      "email": "psxaf@1rivet.com",
+      "contact": "9858958888",
+      "salary": "858585",
+      "id": 10
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+	date          ||        Work
+
+Monday	2/1/23	->Generic session 5:00-6:00 ( Intro about Scrum and kanban (Project Mangment Methods) ).
+			->How 1R work with client.
+			->Basic Knowledge of Jquery.
+	
+Tuesday	3/1/23	->Details About Scrum Aand kanban.
+			->Generic Session on swagger 2:30-3:30(Nisarg shroff).
+				=>How to read api in swagger.
+			->Generic Session on Front-end devlopment overview 4:00-5:00(Rahul,Mitul,Kevang,Vidya).
+				=>Basic overview (HTML,CSS,JS,RESPONSIVE WEBDESIGN,GITHUB).	
+
+Wednesd	4/1/23	=>Basics About Polymorphism,Inheritance,Encapsulation,Abstraction.
+			->Generic Session on OOP Concepts 3:00-4:00(Nisarg shroff,Mitesh Patel).
+				=>Class,Objects,Inheritance,Ploymorphism,Encapsulation,Abstraction.
+			=>Front-end Devlopment Session(Revant Patel,Mitul Patel,Rahul Chokshi)
+				Agenda Of Meeting
+				=>Roles and Responsiblity.(Roadmap of FrontEnd)
+					=>Conduct session on daily basis and mentors are available once or twice a week.
+					=>Every group has their individual mentors.
+				=>Introduction.
+			
+Thursd	5/1/23       =>Basics About Git & GitHub.
+	      		->Generic Session on Git.
+			->Frontend individual Session and assignments allocation .
+				=>In this session How our work is going forward .
+				=>Roadmap of Front-end devlpoment.(HTML,CSS,JAVASCRIPT,ANGULAR,BOOTSTRAP,SCSS)
+
+
+Friday	6/1/23       =>Make Github repo..
+			=>Make one file and push into github.
+			->pull that file and edit it.
+			=>Make branches in repo..
+			 
+			=>One Generic Session About Database
+				->In the Session What is Data.
+				->Discussion About DBMS,RDBMS,SCHEMA,QUERY.
+	
+
+Monday 9/1/23	  =>Brief Html Basic Topics
+			=>History of html,What,why,where,How Html.http://amyhissom.com/HTML5-CSS3/history.html
+			=>Inroduction,Standard Bodies.
+			
+		=>Front-end HTML Session.
+			=>Take Session.
+			=>Assignment Allocation.
+			=>Task Done and Sent Github repo Link via mail.
+
+Tuesday 10/1/23   =>Brief Html
+			=>Inline and Block leval elements,Text breaking and White Spacing.
+			
+		   =>front-end session(11:00-12:00)( conducted by Vinay )
+			->Session about inline element and block leval element,Text breaking,White spacing.
+			->code review and correction on that code and the task is manage that code properly and again push that formatted code.
+		  =>General Discussion on Mentors and Guide.
+			->Group Mentors :  RAHUL CHOKSI,MIHIR PATEL.
+
+
+Wednesday 11/1/23  =>folder structure (pages,Assests)
+		   =>Frontend session conducted by Shivam 
+			->List and link
+			->Task allocation making one card in HTML.
+
+Thursday 12/1/13 =>Session on form and table(by Shivam singh)
+			->Make one table with the use of tr,td,cell-padding,cell-spacing.
+			->Make one Form With the use of all input fields.
+
+Friday 13/1/23 ->Session on Table
+		->Live Demo of table
+			
+
+14/15-> offff
+
+
+16/1/23  ->Front-end Session on CSS ( Conducted By Vidya)
+	 =>Css basics (what ,why , How)
+	=>Css text-decoration,font-size,font-style,font-weight)
+	=>Give Two task in figma and build as same as that with css.
+	=>css variable for colors.
+	
+17/1/2023 =>Frontend Session css
+		->Display property and position property
+
+18/1/2020 ->Front-end session  css (Vidya stapute)
+		->one task in figma and built as same as them.
+   	  ->Front-end Session on Vs code Tools.
+	
+19/1/2020 ->front-end session of css
+		->live demo of task1
+		->Build card with display flex.
+
+20/1/2020 ->Front-end Session of css
+21/1/2020 ->Front-end Session of css
+22/1/2020 ->Front-end Session of css
+23/1/2020 ->Front-end Session of css
+24/1/2020 ->Front-end Session of css	
+25/1/2020 ->Front-end Session of css		
+26/1/2020 ->Front-end Session of css
+27/1/2020 ->Front-end Session of css
+28/1/2020 ->Front-end Session of css
+29/1/2020 ->Front-end Session of css	
+
+
+30/1/2020 ->First Assesment of HTML and Css.
+		=>10-6 task allocate and done by 6 pm of that day only.
+							
+
+
+https://youtu.be/BSU3bIXU85k//jwt token 
+https://www.youtube.com/watch?v=xeyE_PJ0P9U // code step by step

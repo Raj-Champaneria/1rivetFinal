@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.aside-wrapper{
+    width: 300px;
+    border: 1px solid black;
+    height: 100%;
+}
+
+ul li {
+    padding:15px;
+    border: 1px solid black;
+    font-size: 30px;
+}
+
+ul li:hover{
+    color:red;
+    cursor: pointer;
+    background-color: antiquewhite;
+    border-right: 3px solid rgb(248, 1, 1);
+    border-top-right-radius: 2px;
+}

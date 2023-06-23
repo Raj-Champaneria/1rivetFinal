@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj_Assement</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assests/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper d-flex">
+        <input type="checkbox" id="sidebarToggle" class="d-none">
+        <aside class="aside-wrapper">
+            <div class="logo d-flex aic">
+                <img class="logo-img" src="assests/images/Polygon 5.png">
+                <img class="vector-38" src="assests/images/Vector 38.png">
+                <img class="vector-39" src="assests/images/Vector 39.png">
+                <h1 class="logo-name">KANBAN</h1>
+            </div>
+            <div class="aside-nav-container d-flex flex-column ja h-100">
+                <ul class="ul-container">
+                    <li class="list-items"><img class="li-img" src="assests/images/Dahboard.png"><a
+                            href="#">Dashboard</a></li>
+                    <li class="list-items "><img class="li-img " src="assests/images/Inventory.png"><a
+                            href="#"  >Inventory</a></li>
+                    <li class="list-items"><img class="li-img" src="assests/images/Reports.png"><a href="#">Reports</a>
+                    </li>
+                    <li class="list-items"><img class="li-img" src="assests/images/Suppliers.png"><a
+                            href="#">Suppliers</a></li>
+                    <li class="list-items"><img class="li-img" src="assests/images/Orders.png"><a href="#">Orders</a>
+                    </li>
+                    <li class="list-items"><img class="li-img" src="assests/images/Manage_store.png"><a href="#">Manage
+                            Store</a></li>
+                </ul>
+                <ul class="ul-container">
+                    <li class="list-items"><img class="li-img" src="assests/images/setting.png"><a href="#">Setting</a>
+                    </li>
+                    <li class="list-items"><img class="li-img" src="assests/images/logout.png"><a href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+
+        </aside>
+        <main class="main-container d-flex flex-column">
+            <header class="main-header d-flex jsb aic">
+                <div class="search d-flex aic ">
+                    <label for="sidebarToggle"><img class="h-icon" src="assests/images/hamberger.png"></label>
+                    <input type="text" size="35" class="input-serch" placeholder="Search products,supplier,order....">
+                </div>
+                <div class="user-content d-flex aic">
+                    <img class="bell" src="assests/images/bell.png">
+                    <img class="circle-img bell" src="assests/images/andrey-zvyagintsev-x0c6vTO5ibA-unsplash 3.png">
+                </div>
+            </header>
+            <div class="overall-inventory">
+                <h2>Overall Inventory</h2>
+
+                <div class="category-revenue d-flex jsb ">
+                    <div class="total-Products d-flex flex-column ">
+                        <h3 class="ct inventory-heading">Categories</h3>
+                        <div class="outer-section d-flex">
+                            <div class="inner-section d-flex flex-column">
+                                <span class="card-amount">14</span>
+                                <span class="card-days">Last 7 days</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="total-Products d-flex flex-column ">
+                        <h3 class="tp inventory-heading">Total products</h3>
+                        <div class="outer-section d-flex">
+                            <div class="inner-section d-flex flex-column">
+                                <span class="card-amount">868</span>
+                                <span class="card-days">Last 7 days</span>
+                            </div>
+                            <div class="inner-section-two d-flex flex-column">
+                                <span class="card-amount">₹25000</span>
+                                <span class="card-days">Revenue</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="total-Products d-flex flex-column">
+                        <h3 class="ts inventory-heading">Top Selling</h3>
+                        <div class="outer-section d-flex">
+                            <div class="inner-section d-flex flex-column">
+                                <span class="card-amount">5</span>
+                                <span class="card-days">Last 7 days</span>
+                            </div>
+                            <div class="inner-section-two d-flex flex-column">
+                                <span class="card-amount">₹2500</span>
+                                <span class="card-days">cost</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="total-Products d-flex flex-column">
+                        <h3 class="ls inventory-heading">Low stocks</h3>
+                        <div class="outer-section d-flex">
+                            <div class="inner-section d-flex flex-column">
+                                <span class="card-amount">12</span>
+                                <span class="card-days">Ordered</span>
+                            </div>
+                            <div class="inner-section-two d-flex flex-column">
+                                <span class="card-amount">2</span>
+                                <span class="card-days">Not in stock</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="table-main-content">
+                <header class="product-table-header d-flex jsb aic">
+                    <div class="products-header">
+                        <h3 class="heading-product">Products</h3>
+                    </div>
+                    <div class="products-button">
+                        <button class="add-products btn-product">Add Products</button>
+                        <button class="filter-products ms-20 btn-product"><img src="assests/images/filter.png"
+                                alt="filter" class="fl-img">Filters</button>
+                        <button class="download-products ms-20 btn-product"> Download All</button>
+                    </div>
+                </header>
+                <div class="table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Buying Price</th>
+                                <th>Quantity</th>
+                                <th>Thresold Value</th>
+                                <th>Expiry Date</th>
+                                <th>Availiblity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Maggie</td>
+                                <td>₹430</td>
+                                <td>43 Packets</td>
+                                <td>12 packets</td>
+                                <td>11/12/2022</td>
+                                <td class="instock">In stock</td>
+                            </tr>
+                            <tr>
+                                <td>Bru</td>
+                                <td>₹430</td>
+                                <td>22 Packets</td>
+                                <td>12 packets</td>
+                                <td>21/12/2022</td>
+                                <td class="out-of-stock">out of stock</td>
+                            </tr>
+                            <tr>
+                                <td>Red Bull</td>
+                                <td>₹405</td>
+                                <td>36 packets</td>
+                                <td>9 packets</td>
+                                <td>5/12/22</td>
+                                <td class="instock">Instock</td>
+                            </tr>
+                            <tr>
+                                <td>Bourn Vita</td>
+                                <td>₹502</td>
+                                <td>14 packets</td>
+                                <td>6 packets</td>
+                                <td>8/12/22</td>
+                                <td class="out-of-stock">Out of Stock</td>
+                            </tr>
+                            <tr>
+                                <td>Horlicks</td>
+                                <td>₹530</td>
+                                <td>5 packets</td>
+                                <td>5 packets</td>
+                                <td>9/1/23</td>
+                                <td class="instock">in-stock</td>
+                            </tr>
+                            <tr>
+                                <td>Harpic</td>
+                                <td>₹605</td>
+                                <td>10 packets</td>
+                                <td>5 packets</td>
+                                <td>9/1/23</td>
+                                <td class="instock">in-stock</td>
+                            </tr>
+                            <tr>
+                                <td>Ariel</td>
+                                <td>₹408</td>
+                                <td>23 packets</td>
+                                <td>7 packets</td>
+                                <td>15/12/23</td>
+                                <td class="out-of-stock">out of stock</td>
+                            </tr>
+                            <tr>
+                                <td>ScotchBrite</td>
+                                <td>₹359</td>
+                                <td>43 packets</td>
+                                <td>8 packets</td>
+                                <td>6/6/23</td>
+                                <td class="instock">in-stock</td>
+                            </tr>
+                            <tr>
+                                <td>Coco cola</td>
+                                <td>₹205</td>
+                                <td>41 packets</td>
+                                <td>10 packets</td>
+                                <td>11/11/22</td>
+                                <td class="low-stock">Low stock</td>
+                            </tr>
+                            <tr>
+                                <td>Coco cola</td>
+                                <td>₹205</td>
+                                <td>41 packets</td>
+                                <td>10 packets</td>
+                                <td>11/11/22</td>
+                                <td class="low-stock">Low stock</td>
+                            </tr>
+                            <tr>
+                                <td>Coco cola</td>
+                                <td>₹205</td>
+                                <td>41 packets</td>
+                                <td>10 packets</td>
+                                <td>11/11/22</td>
+                                <td class="low-stock">Low stock</td>
+                            </tr>
+                            <tr>
+                                <td>Coco cola</td>
+                                <td>₹205</td>
+                                <td>41 packets</td>
+                                <td>10 packets</td>
+                                <td>11/11/22</td>
+                                <td class="low-stock">Low stock</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <footer>
+                    <div class="footer-button d-flex jsb aic">
+
+                        <button class="btn-product">Previous</button>
+                        <h2 class="f-font">Page 1 of 10</h2>
+                        <button class="btn-product">Next</button>
+                    </div>
+                </footer>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
